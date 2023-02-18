@@ -17,7 +17,9 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += main.cpp \
     bubble_sort_descending.cpp \
     bubble_sort_ascending.cpp \
-    binary_search.cpp
+    binary_search.cpp \
+    selection_sort_ascending.cpp \
+    selection_sort_descending.cpp
 
 HEADERS += \
     sorting_algorithms.h \
