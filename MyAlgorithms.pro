@@ -19,8 +19,12 @@ SOURCES += main.cpp \
     bubble_sort_ascending.cpp \
     binary_search.cpp \
     selection_sort_ascending.cpp \
-    selection_sort_descending.cpp
+    selection_sort_descending.cpp \
+    insertion_sort_ascending.cpp \
+    insertion_sort_descending.cpp
 
 HEADERS += \
     sorting_algorithms.h \
     search_algorithms.h
+
+DISTFILES +=
