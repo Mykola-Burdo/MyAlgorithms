@@ -1,4 +1,5 @@
 #include "sorting_algorithms.h"
+#include "swap_elements.h"
 
 void bubble_sort_ascending(int *arr, int size)
 {
@@ -8,9 +9,7 @@ void bubble_sort_ascending(int *arr, int size)
         {
             if (arr[j] > arr[j + 1])
             {
-                int tmp = arr[j];
-                arr[j] = arr[j + 1];
-                arr[j + 1] = tmp;
+                swap_elements(arr, j, j + 1);
             }
         }
     }

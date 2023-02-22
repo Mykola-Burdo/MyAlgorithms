@@ -1,4 +1,5 @@
 #include "sorting_algorithms.h"
+#include "swap_elements.h"
 
 void selection_sort_descending(int *arr, int size)
 {
@@ -15,9 +16,7 @@ void selection_sort_descending(int *arr, int size)
 
         if(i != minIndex)
         {
-            int tmp = arr[i];
-            arr[i] = arr[minIndex];
-            arr[minIndex] = tmp;
+            swap_elements(arr, i, minIndex);
         }
     }
 }

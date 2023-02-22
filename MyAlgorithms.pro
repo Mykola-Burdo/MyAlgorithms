@@ -21,10 +21,14 @@ SOURCES += main.cpp \
     selection_sort_ascending.cpp \
     selection_sort_descending.cpp \
     insertion_sort_ascending.cpp \
-    insertion_sort_descending.cpp
+    insertion_sort_descending.cpp \
+    swap_elements.cpp \
+    cocktail_sort_ascending.cpp \
+    cocktail_sort_descending.cpp
 
 HEADERS += \
     sorting_algorithms.h \
-    search_algorithms.h
+    search_algorithms.h \
+    swap_elements.h
 
 DISTFILES +=
